@@ -1,5 +1,6 @@
 
 const Contactos = () => {
+
   return (
     <div className=" h-[30rem]">
       <h1 className="text-center shadow-sm shadow-white text-slate-400 text-4xl m-5 p-5 uppercase">Contacto</h1>
@@ -24,12 +25,11 @@ const Contactos = () => {
 
         </div>
         
-        <input 
+        <button 
           className="submit w-full mt-5 mb-5 p-4 rounded-xl text-white bg-slate-950 text-2xl uppercase"
           type="submit" 
-          value="Enviar" 
           id="enviar"
-        />
+        >Enviar</button>
       </form>
     </div>
   )
